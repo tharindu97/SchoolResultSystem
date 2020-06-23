@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>Welcome to School System</h1>
+    <a href="view/student/student.html">Student</a>
 </body>
 </html>

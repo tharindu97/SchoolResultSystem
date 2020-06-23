@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School SyStem</title>
+</head>
+<body>
+    <h1>Add New Student</h1>
+    <a href="../../index.php">Home</a>
+    <a href="student.html">Student</a>
+    <a href="delete_student.html">Delete Student</a>
+    <a href="update_student.html">Update Student</a>
+
+    
+    <form action="../../controller/student/add_student.php" method="POST">
+         
+        <label for="txtFirstName">First Name</label>
+        <input type="text" name="txtFirstName">
+
+        <label for="txtLastName">Last Name</label>
+        <input type="text" name="txtLastName">
+
+        <label for="txtPhoneNumber">Phone Number</label>
+        <input type="text" name="txtPhoneNumber">
+
+        <input type="submit" value="Add Student">
+
+    </form>
+</body>
+</html>
