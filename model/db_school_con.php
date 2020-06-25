@@ -27,6 +27,7 @@
         try {
            if(mysqli_query($connection, $mySqlCommand)){
                 echo "Succefully....!";
+                header('Location: ../../view/student/home.php');
            }
            else{
                echo "Error: ". mysqli_error($connection);

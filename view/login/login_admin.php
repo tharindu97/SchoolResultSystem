@@ -26,11 +26,11 @@
                             </div><!-- End of txtusername -->
 
                             <div class="my-4"><!-- button -->
-                                <button id="btnLogin" class="btn btn-danger btn-block text-uppercase" type="submit" name="sub">Student Login</button>
+                                <button id="btnLogin" class="btn btn-danger btn-block text-uppercase" type="submit" name="sub">Admin Login</button>
                             </div><!-- End of button -->
 
                             <hr class="my-4">
-                            <h6>Login By Admin <a href="view/login/login_admin.php">Click herer</a></h6>
+                            <h6>Login By Student <a href="../../index.php">Click herer</a></h6>
 
                         </form><!-- End of form -->
                     </div><!-- End of Card Body-->
