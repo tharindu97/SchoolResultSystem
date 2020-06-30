@@ -13,6 +13,7 @@
 
             session_start();
             $_SESSION['id'] = $stuId;
+            echo "panam";
             header('location: ../../view/student/home.php');
         }else{
             header('location: ../../view/login/login_admin.php');

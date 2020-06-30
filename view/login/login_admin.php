@@ -19,7 +19,7 @@
                 <div class="card my-5"><!-- Card -->
                     <div class="card-body"><!-- Card Body -->
                         <h5 class="text-center my-2">:#: Result System :#:</h5>
-                        <form action="controller/login/login_student.php" class="form" role="form" method="POST">
+                        <form action="../../controller/login/login_admin.php" class="form" role="form" method="POST">
                             
                             <div class="my-3"><!-- txtusername -->
                                 <input type="text" class="form-control" id="txtStudentId" name="txtStudentId" placeholder="Student Number">
