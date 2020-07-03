@@ -13,7 +13,7 @@
 
             session_start();
             $_SESSION['id'] = $stuId;
-            header('location: ../../view/viewStudent/home.html');
+            header('location: ../../view/viewStudent/home.php');
         }else{
             header('location: ../../index.php');
         }

@@ -25,6 +25,7 @@
             <button class="btn btn-danger"><a href="delete_student.html" >Delete Student</a></button>
             <button class="btn btn-primary"><a href="update_student.html" >Update Student</a></button>
             <button class="btn btn-warning"><a href="marks_student.html" >Marks Student</a></button>
+            <button class="btn btn-danger"><a href="../../controller/logout/logout.php" >Logout</a></button>
             <table class="table my-5">
 
                 <tr>
